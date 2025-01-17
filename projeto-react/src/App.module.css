@@ -1,0 +1,22 @@
+.wrapper{
+    max-width: 70rem;
+    margin: 2rem auto;
+    padding: 0 1rem;
+
+    display:grid;
+    grid-template-columns: 250px 1fr;
+    gap: 2rem; 
+    align-items: flex-start;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+@media(max-width:590px){
+    .wrapper{
+    grid-template-columns: 1fr;
+    }
+}
